@@ -1,0 +1,2 @@
+Exception: Error running automation call <tt>try-inventory</tt> (exit code 2), error: <pre>Failed to lookup IPv4 address of pc-rob via DNS: [Errno -2] Name or service not known
+</pre>

@@ -1,0 +1,5 @@
+[Fri Apr 22 09:31:48.974052 2022] [mpm_prefork:notice] [pid 555] AH00163: Apache/2.4.38 (Debian) mod_wsgi/4.7.0 Python/3.8 mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Apr 22 09:31:48.974196 2022] [core:notice] [pid 555] AH00094: Command line: '/usr/sbin/apache2 -f /omd/sites/cmk/etc/apache/apache.conf'
+[Fri Apr 22 10:05:27.007615 2022] [mpm_prefork:notice] [pid 555] AH00169: caught SIGTERM, shutting down
+[Fri Apr 22 10:05:43.203589 2022] [mpm_prefork:notice] [pid 117] AH00163: Apache/2.4.38 (Debian) mod_wsgi/4.7.0 Python/3.8 mod_fcgid/2.3.9 configured -- resuming normal operations
+[Fri Apr 22 10:05:43.203749 2022] [core:notice] [pid 117] AH00094: Command line: '/usr/sbin/apache2 -f /omd/sites/cmk/etc/apache/apache.conf'

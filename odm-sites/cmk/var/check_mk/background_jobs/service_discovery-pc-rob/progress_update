@@ -1,0 +1,20 @@
+Starting job...
+2022-04-22 11:02:53,970 [30] [cmk.web.automations 6189] 'check_mk --automation try-inventory @noscan pc-rob' returned 'Failed to lookup IPv4 address of pc-rob via DNS: [Errno -2] Name or service not known
+'
+2022-04-22 11:02:53,971 [40] [cmk.web.automations 6189] Error running 'check_mk --automation try-inventory @noscan pc-rob' (exit code 2)
+2022-04-22 11:02:53,971 [40] [cmk.web.background-job 6189] Exception in background function
+Traceback (most recent call last):
+  File "/omd/sites/cmk/lib/python3/cmk/gui/background_job.py", line 210, in _execute_function
+    func_ptr(*args, **kwargs)
+  File "/omd/sites/cmk/lib/python3/cmk/gui/watolib/services.py", line 602, in discover
+    self._pre_try_discovery = self._get_try_discovery(request)
+  File "/omd/sites/cmk/lib/python3/cmk/gui/watolib/services.py", line 676, in _get_try_discovery
+    check_mk_automation(
+  File "/omd/sites/cmk/lib/python3/cmk/gui/watolib/automations.py", line 68, in check_mk_automation
+    return check_mk_local_automation(command, args, indata, stdin_data, timeout)
+  File "/omd/sites/cmk/lib/python3/cmk/gui/watolib/automations.py", line 140, in check_mk_local_automation
+    raise _local_automation_failure(
+cmk.utils.exceptions.MKGeneralException: Error running automation call <tt>try-inventory</tt> (exit code 2), error: <pre>Failed to lookup IPv4 address of pc-rob via DNS: [Errno -2] Name or service not known
+</pre>
+Exception: Error running automation call <tt>try-inventory</tt> (exit code 2), error: <pre>Failed to lookup IPv4 address of pc-rob via DNS: [Errno -2] Name or service not known
+</pre>

@@ -1,0 +1,21 @@
+566:C 22 Apr 2022 09:31:49.030 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+566:C 22 Apr 2022 09:31:49.030 # Redis version=6.1.240, bits=64, commit=a46fc3f7, modified=1, pid=566, just started
+566:C 22 Apr 2022 09:31:49.030 # Configuration loaded
+566:M 22 Apr 2022 09:31:49.030 * monotonic clock: POSIX clock_gettime
+566:M 22 Apr 2022 09:31:49.031 * Running mode=standalone, port=0.
+566:M 22 Apr 2022 09:31:49.031 # Server initialized
+566:M 22 Apr 2022 09:31:49.031 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+566:M 22 Apr 2022 09:31:49.031 * The server is now ready to accept connections at /omd/sites/cmk/tmp/run/redis
+566:signal-handler (1650614725) Received SIGTERM scheduling shutdown...
+566:M 22 Apr 2022 10:05:25.575 # User requested shutdown...
+566:M 22 Apr 2022 10:05:25.575 * Removing the pid file.
+566:M 22 Apr 2022 10:05:25.575 * Removing the unix socket file.
+566:M 22 Apr 2022 10:05:25.575 # Redis is now ready to exit, bye bye...
+128:C 22 Apr 2022 10:05:43.260 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+128:C 22 Apr 2022 10:05:43.261 # Redis version=6.1.240, bits=64, commit=a46fc3f7, modified=1, pid=128, just started
+128:C 22 Apr 2022 10:05:43.261 # Configuration loaded
+128:M 22 Apr 2022 10:05:43.261 * monotonic clock: POSIX clock_gettime
+128:M 22 Apr 2022 10:05:43.262 * Running mode=standalone, port=0.
+128:M 22 Apr 2022 10:05:43.262 # Server initialized
+128:M 22 Apr 2022 10:05:43.262 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+128:M 22 Apr 2022 10:05:43.262 * The server is now ready to accept connections at /omd/sites/cmk/tmp/run/redis
